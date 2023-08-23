@@ -31,3 +31,12 @@ color: white;
 <style>
 body {
   background-color: lightblue;
+  #categoryGrid {
+    margin: 0px 5%;
+    display: grid;
+    grid-template-rows: 300px 300px300px;
+    gride-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "case study 1"
+    "case study 2"
+    "case study 3"
